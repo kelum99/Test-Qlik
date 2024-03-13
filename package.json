@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@qlik/embed-react": "^1.0.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,6 +16,18 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@qlik/eslint-config": "0.4.21",
+    "@qlik/prettier-config": "0.4.0",
+    "@qlik/tsconfig": "0.1.6",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react-swc": "3.3.2",
+    "eslint": "8.50.0",
+    "typescript": "5.2.2",
+    "vite": "4.4.9",
+    "vite-plugin-mkcert": "1.16.0"
   },
   "scripts": {
     "start": "react-scripts start",
